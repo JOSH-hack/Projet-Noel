@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: red;
+    font-size: 48px; /* Taille de la police */
+    position: relative;
+    overflow: hidden;
+}
+
+h1 { 
+    z-index: 10;
+    
+}
+
+.decor {
+    position: absolute;
+    animation: blink 1s infinite; /* Animation de clignotement */
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.star {
+    background: url('https://img.icons8.com/emoji/48/000000/glowing-star-emoji.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.reindeer {
+    background: url('https://img.icons8.com/color/48/000000/reindeer.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.sock {
+    background: url('https://img.icons8.com/color/48/000000/christmas-stocking.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.candy {
+    background: url('https://img.icons8.com/color/48/000000/candy-cane.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.sock {
+    background: url('https://img.icons8.com/color/48/000000/christmas-stocking.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.candy2 {
+    background: url('https://img.icons8.com/color/48/000000/candy-cane.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.sock2 {
+    background: url('https://img.icons8.com/color/48/000000/christmas-stocking.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+.reindeer {
+    background: url('https://img.icons8.com/color/48/000000/reindeer.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.reindeer2 {
+    background: url('https://img.icons8.com/color/48/000000/reindeer.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.reindeer3 {
+    background: url('https://img.icons8.com/color/48/000000/reindeer.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.candy3 {
+    background: url('https://img.icons8.com/color/48/000000/candy-cane.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.candy4 {
+    background: url('https://img.icons8.com/color/48/000000/candy-cane.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+.sock3 {
+    background: url('https://img.icons8.com/color/48/000000/christmas-stocking.png') no-repeat center;
+    width: 96px;
+    height: 96px;
+}
+
+/* Positionnement des décorations */
+.star { top: 40px; left: 10%; }
+.reindeer { top: 10%; right: 15%; }
+.sock { bottom: 20px; left: 40%; }
+.candy { bottom: 30px; right: 20%; }
+.candy2 { bottom: 10%; left: 10%; }
+.sock2 { bottom: 10%; right: 10%; }
+.reindeer2 { top: 20%; left: 15%; }
+.reindeer3 { top: 30%; right: 10%; }
+.candy3 { top: 25%; left: 25%; }
+.candy4 { bottom: 25%; left: 27%; }
+.sock3 { top: 10%; right: 60%; }
